@@ -15,7 +15,7 @@ public class Category {
     String slug;
     String imageUrl;
 
-    public Category() {
+    protected Category() {
     }
 
     public Category(String name, String slug, String imageUrl) {

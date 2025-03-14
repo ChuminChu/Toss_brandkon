@@ -22,7 +22,7 @@ public class Product {
     @JoinColumn(nullable = false)
     private Brand brand;
 
-    public Product() {
+    protected Product() {
     }
 
     public Product(String productName, int price, String imageUrl, int expirationDays, Brand brand) {

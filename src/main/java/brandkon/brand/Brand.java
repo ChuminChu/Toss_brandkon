@@ -18,7 +18,7 @@ public class Brand {
     @OneToMany(mappedBy = "brand", cascade = CascadeType.ALL)
     private List<BrandCategory> brandCategories;
 
-    public Brand() {
+    protected Brand() {
     }
 
     public Brand(String name, String imageUrl, String guidelines) {
